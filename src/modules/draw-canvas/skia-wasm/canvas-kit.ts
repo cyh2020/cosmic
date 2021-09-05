@@ -1,9 +1,8 @@
-// @ts-ignore
-// import CanvasKitInit from '/node_modules/canvaskit-wasm/bin/canvaskit.js'
-// import type { CanvasKit } from 'canvaskit-wasm';
+import type { CanvasKit } from 'canvaskit-wasm';
+declare const CanvasKitInit: any;
 
-export async function getCanvasKit(): Promise<CanvasKit> | void {
-  // return CanvasKitInit({
-  //   locateFile: (file: string) => './bin/' + file,
-  // }).then((canvasKit: CanvasKit) => canvasKit);
+export async function getCanvasKit(): Promise<CanvasKit> {
+  return CanvasKitInit({
+    locateFile: (file: string) => './bin/' + file,
+  }).then((canvasKit: CanvasKit) => canvasKit);
 }

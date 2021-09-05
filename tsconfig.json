@@ -12,7 +12,7 @@
     },
     "resolveJsonModule": true,
     "experimentalDecorators": true,
-    "types": ["jest"],
+    "types": ["jest", "node"],
     "isolatedModules": false,
     "noImplicitThis": false,
     "strictPropertyInitialization": false,

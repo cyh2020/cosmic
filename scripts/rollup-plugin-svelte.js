@@ -11,6 +11,7 @@ import { syncFile } from './rollup-plugin-sync';
 // import svg from 'rollup-plugin-svg-import';
 
 import smelte from './rollup-plugin-smelte.js';
+import css from 'rollup-plugin-css-only';
 
 const tailwindConfig = require('./tailwind.config');
 
