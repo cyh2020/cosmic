@@ -11,6 +11,7 @@ declare module 'vue' {
     ICosmicContain: typeof import('~icons/cosmic/contain')['default']
     ICosmicCorner: typeof import('~icons/cosmic/corner')['default']
     ICosmicDark: typeof import('~icons/cosmic/dark')['default']
+    ICosmicDir: typeof import('~icons/cosmic/dir')['default']
     ICosmicFeedback: typeof import('~icons/cosmic/feedback')['default']
     ICosmicFont: typeof import('~icons/cosmic/font')['default']
     ICosmicInput: typeof import('~icons/cosmic/input')['default']
